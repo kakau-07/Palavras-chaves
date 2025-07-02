@@ -30,6 +30,7 @@ function processaTexto(texto) {
 
     return ordenadas.slice(0, 10);
 }
+
 function contaFrequencias(palavras) {
     let frequencias = {};
     for (let i of palavras) {
